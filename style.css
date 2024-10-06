@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:hsl(30, 54%, 90%) ;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+.card{
+    background-color: white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    max-width: 380px;
+    padding:20px;
+    margin: 10px;
+    height:auto;
+    border-radius: 10px;
+    margin: 5rem;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+img{
+    border-radius: 10px;
+    margin-bottom: 8px;
+    padding: 3px;
+}
+.Omelette-Recipe{
+    font-size: 11px;
+    padding: 3px;
+    margin-top: 5px;
+}
+.para{
+    font-size: 10px;
+    color: grey;
+    margin-bottom: 10px;
+}
+.Prep-time{
+    background-color:hsl(330, 100%, 98%) ;
+    padding: 10px;
+    border-radius: 5px;
+}
+.Prep-time h2{
+    color: hsl(332, 51%, 32%);
+    font-size: 12px;
+    padding: 10px;
+}
+.list li::marker{
+    color: hsl(332, 51%, 32%);
+    font-size: 1.2em;
+}
+.list li{
+    padding: 3px;
+    font-size: 10px;
+    margin-left:10px;
+}
+.ingredients{
+    border-bottom: 0.5px solid rgb(93, 93, 93);
+    padding: 10px; 
+    margin-top: 10px; 
+}
+ h3{
+    color: hsl(14, 45%, 36%);
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 80;
+}
+.list-2{
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 10px;
+    color: rgb(88, 84, 84);
+    list-style:square;
+}
+.list-2 li::marker{
+    color:hsl(14, 45%, 36%);
+}
+.list-2 li{
+    padding:4px ;
+}
+.Instruction{
+    border-bottom: 0.5px solid grey;
+    margin-top: 10px;
+}
+.list-3 li{
+    font-size: 12px;
+    margin-left: 10px;
+    padding: 5px;
+    color: rgba(142, 60, 60, 0.473);
+  margin-bottom: 12px;
+    
+}
+
+.Nutrition{
+    margin:25px;
+
+}
+.Qnt{
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+tr{
+    height: 30px;
+    border-bottom:1px solid rgb(199, 198, 198);
+}
+td{
+    padding: 10px;
+}
+p{
+    font-size: 11px;
+    font-style: italic;
+    color: hsl(332, 51%, 32%);
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
